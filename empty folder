@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Venkman & Spengler</title>
+    <style>
+
+      body {
+background-image: linear-gradient(to right, #CB6CE6, #38b6ff);  
+
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      section {
+        margin: 120px 0;
+      }
+
+      h1 {
+        font-weight: 900;
+        font-size: 60px;
+        color: #391569;
+        text-align: center;
+      }
+
+      h2 {
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 48px;
+        margin: 0;
+        text-align: center;
+        color: #85cc59;
+        padding: 0 0 35px;
+      }
+
+      img {
+        border: 10px solid #391569;
+        padding: 15px;
+
+      }
+    
+      img.noborder {border:none;}
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        color: #1b0849;
+      }
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+        border: 1px solid #885df1;
+        color: #885df1;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        box-shadow: 10px 10px 15px #b8249f;
+      }
+      button:hover {
+        color: #391569;
+        background: #85cc59;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Venkman & Spengler</h1>
+      <h2>AKC Therapy Dogs,<em>working with Divine Canines </em> </h2>
+      <center>
+      <img src = "	https://mcusercontent.com/e0fe07e79942cd2485a4efa32/images/7a80b43f-32e1-681d-d1e1-0ffbc7e476ff.jpeg" width="500";>
+    
+      </center>
+      
+      <br/>
+      <p>
+        <strong>
+        Meet Venkman and Spengler, the dynamic duo of therapy dogs! These AKC certified canine companions work with <span style="color: #85cc59"> Divine Canines</span>, a local nonprofit therapy dog organization, and are on a mission to bring comfort and joy to those in need. With their wagging tails and gentle nature, they have a divine touch that brings smiles to faces and brightens any room. Their favorite sites to visit include the Juvenile Justice Detention Center, the Juvenile Justice Alternative Learning Center, St. David's Hospital, and Brookdale Northwest Hills Senior Living Home. Join us in celebrating these furry heroes for their selfless acts of kindness.
+        </strong>
+        <div> 
+            <br />
+            <p>
+                Are you interested in having your pet become a therapy dog?
+            </p>
+        </div>
+        <button>Click here to begin your therapy dog training journey!</button>
+        <br />
+        <hr>
+        <br />
+      </p>
+      <br />
+      <center>
+      <a href="https://divinecanines.org/" target="blank">
+      <img src = "https://divinecanines.org/dcword/wp-content/uploads/2015/02/dc_web_logo1.jpg" width="400;" class="noborder">
+    
+    </a>
+      </center>
+      <br/>
+      <center>
+      <a href="https://www.instagram.com/haus_of_poodles/" target="blank">
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="100" class="noborder">
+    </a>
+    </center>
+    <br/>
+
+    </section>
+    <script>
+     function therapyJourney() {
+        let dog = prompt("Do you have a dog of your own?");
+        if (dog === "yes") {alert ("Fantastic! Visit AKC.org to get started on your CGC training!");} 
+        else { alert("Visit us again once you have a dog of your own 💜")
+        }
+      }
+
+
+
+      let applyButton = document.querySelector("button");
+      applyButton.addEventListener("click", therapyJourney);
+
+
+
+    </script>
+  </body>
+</html>
 
